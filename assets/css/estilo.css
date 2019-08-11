@@ -1,0 +1,37 @@
+/*header*/
+.header{
+    background-color: #117A25;
+    color: #F2F2F2;
+}
+.header--title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.header--title-sub{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+/*main*/
+.main{
+
+}
+.main--title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #00420C;
+    text-align: center;
+    width: 446px;
+    height: 21px;
+    left: -31px;
+    top: 169px;
+}
+.main--text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 337px;
+    height: 218px;
+    left: 25px;
+    top: 220px;
+    position: center;
+}
