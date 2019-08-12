@@ -23,16 +23,36 @@
 .main{
   text-align: center;
   }
-  .main--text{
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  line-height: 1.5;
-  max-width: 337px;
-  text-align: left;
-  display: inline-block;
-  }
   .main--title{
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #00420C;
+  }
+  .main--text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 337px;
+    text-align: left;
+    display: inline-block;
+  }
+  .main--text2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+    
+  }
+  .main--concept{
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    color: #ffffff;
+    background-color: #117A25;
+    text-decoration: none;
+    display: block;
+    padding: 45px;
+    margin: 10px auto;
+    max-width: 313px;
+    border-radius: 5px;
   }
