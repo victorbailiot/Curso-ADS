@@ -30,29 +30,43 @@
   }
   .main--text{
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 19px;
     max-width: 337px;
     text-align: left;
     display: inline-block;
   }
-  .main--text2{
+  .main--lista{
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 19px;
     text-align: left;
-    
+    display: inline-block;
   }
   .main--concept{
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 5 px;
     color: #ffffff;
     background-color: #117A25;
     text-decoration: none;
     display: block;
-    padding: 45px;
+    padding: 30px;
     margin: 10px auto;
     max-width: 313px;
     border-radius: 5px;
   }
+  .main--four{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    text-align: center;
+    margin: 35px;
+    height: 10px;
+  }
+  .main--image{
+    border-radius: 5px;
+    border: 2px solid #00420C;
+    width: 170px;
+  }
+}
