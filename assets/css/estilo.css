@@ -27,14 +27,16 @@
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #00420C;
+    margin: 25px 0px 0px 0px;
   }
   .main--text{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 25px;
     max-width: 337px;
     text-align: left;
     display: inline-block;
+    margin: 25px 0px 50px 0px;
   }
   .main--lista{
     font-family: 'Roboto', sans-serif;
@@ -42,11 +44,11 @@
     line-height: 19px;
     text-align: left;
     display: inline-block;
+    margin: 25px 0px 50px 0px;
   }
   .main--concept{
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
-    line-height: 5 px;
     color: #ffffff;
     background-color: #117A25;
     text-decoration: none;
@@ -58,21 +60,28 @@
   }
   .main--four{
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
     font-size: 38px;
     text-align: center;
     margin: 35px;
     height: 10px;
   }
+  .main--title-coordinator{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #00420C;
+    margin: 65px 0px 20px 0px;
+  }
   .main--image{
     border-radius: 5px;
     border: 2px solid #00420C;
     width: 170px;
+    
   }
   .main--name-coordinator{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #00420C;
+    margin: 25px 0px 50px 0px;
   }
 
   .footer{
@@ -84,9 +93,12 @@
   }
   .footer--text{
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     color: #F2F2F2;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 20px;
+    text-align: left;
+    margin-left: 130px;
   }
   .footer--image{
     margin-top: 30px;
