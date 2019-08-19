@@ -8,15 +8,24 @@
 .header{
   background-color: #117A25;
   color: #F2F2F2;
+  }
+  .header--div{
   text-align: center;
   }
   .header--title{
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  display: inline-block;
+  text-align: left;
   }
-  .header--title-sub{
-  font-family: 'Roboto', sans-serif;  
-  font-size: 24px;
+  .header--icon {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    margin-left: 35%;
+    display: block;
+    border-radius: 5px;
   }
 
 /*main*/
@@ -75,7 +84,6 @@
     border-radius: 5px;
     border: 2px solid #00420C;
     width: 170px;
-    
   }
   .main--name-coordinator{
     font-family: 'Roboto', sans-serif;
@@ -83,13 +91,30 @@
     color: #00420C;
     margin: 25px 0px 50px 0px;
   }
-
+  .main--table{
+    text-align: left;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table, td, th {
+    border: 1px solid black;
+  }
+  th {
+    background-color: #E5E5E5;
+  }
+  
+  /*footer*/
   .footer{
     text-align: center;
   }
   .footer--div{
     background-color: #00420C;
-    
+    text-align: center;
   }
   .footer--text{
     font-family: 'Roboto', sans-serif;
@@ -97,8 +122,9 @@
     color: #F2F2F2;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 20px;
+    margin-left: 70px;
     text-align: left;
-    margin-left: 130px;
+    display: inline-block;
   }
   .footer--image{
     margin-top: 30px;
