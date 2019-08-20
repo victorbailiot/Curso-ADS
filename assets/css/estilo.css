@@ -19,13 +19,15 @@
   text-align: left;
   }
   .header--icon {
-    width: 35px;
-    height: 5px;
+    width: 26px;
+    height: 3px;
     background-color: white;
-    margin: 6px 0;
-    margin-left: 35%;
-    display: block;
+    margin: 5px 0;
     border-radius: 5px;
+  }
+  .header--icon-div{
+    display: inline-block;
+    margin: 9px;
   }
 
 /*main*/
@@ -93,17 +95,19 @@
   }
   .main--table{
     text-align: left;
-    border: 1px solid #000000;
     border-collapse: collapse;
+    display: inline-block;
+    margin: 40px 20px 40px 20px;
   }
-  table {
+  .table {
     border-collapse: collapse;
-    width: 100%;
+    max-width: 327px;
   }
   
-  table, td, th {
+  .table, td, th {
     border: 1px solid black;
   }
+
   th {
     background-color: #E5E5E5;
   }
