@@ -3,6 +3,10 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
 
 /*header*/
 .header{
@@ -11,6 +15,7 @@
   }
   .header--div{
   text-align: center;
+  padding: 20px;
   }
   .header--title{
   font-family: 'Roboto', sans-serif;
@@ -19,6 +24,8 @@
   text-align: left;
   }
   .header--icon {
+    margin-bottom: 44px;
+    margin-right: 20px;
     width: 26px;
     height: 3px;
     background-color: white;
@@ -27,7 +34,12 @@
   }
   .header--icon-div{
     display: inline-block;
-    margin: 9px;
+    margin-bottom: 44px;
+    margin-right: 20px;
+  }
+  .header--icon-align{
+    text-align: center;
+    padding: 22px;
   }
 
 /*main*/
@@ -36,7 +48,6 @@
   }
   .main--title{
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
     color: #00420C;
     margin: 25px 0px 0px 0px;
   }
@@ -44,10 +55,10 @@
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 25px;
-    max-width: 337px;
-    text-align: left;
+    max-width: 340px;
+    text-align: justify;
     display: inline-block;
-    margin: 25px 0px 50px 0px;
+    margin: 20px 5px 50px 0px;
   }
   .main--lista{
     font-family: 'Roboto', sans-serif;
@@ -129,6 +140,7 @@
     margin-left: 70px;
     text-align: left;
     display: inline-block;
+    padding-bottom: 100px;
   }
   .footer--image{
     margin-top: 30px;
