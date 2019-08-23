@@ -7,6 +7,9 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+.clearfix{
+  overflow: auto;
+}
 
 /*header*/
 .header{
@@ -115,7 +118,6 @@
     max-width: 327px;
 
   }
-  
   .table, td, th {
     border: 1px solid black;
   }
@@ -127,6 +129,29 @@
   td{
     padding: 12px 3px 10px 10px;
   }
+  .main--image-prof{
+    border-radius: 5px;
+    border: 2px solid #00420C;
+    width: 114px;
+    float: left;
+    margin: 20px;
+  }
+  .main--text-prof{
+    font-family: 'Roboto', sans-serif;
+    color: #00420C;
+    font-size: 18px;
+    text-align: left;
+    
+  }
+  .main--div-prof{
+
+  }
+  .main--text-link{
+    font-family: 'Roboto', sans-serif;
+    color: #0000FF;
+    font-size: 12px;
+    
+  }
   
   /*footer*/
   .footer{
@@ -134,7 +159,6 @@
   }
   .footer--div{
     background-color: #00420C;
-    text-align: center;
   }
   .footer--text{
     font-family: 'Roboto', sans-serif;
