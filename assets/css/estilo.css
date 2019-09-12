@@ -49,6 +49,11 @@ input[type=text] {
     margin-bottom: 44px;
     margin-right: 20px;
   }
+  @media(min-width: 650px){
+    .header--icon-div{
+      display: none;
+    }
+  }
   .header--icon-align{
     text-align: center;
     padding-top: 25px;
